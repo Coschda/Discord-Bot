@@ -47,4 +47,4 @@ async def on_ready():
    await client.change_presence(status=discord.Status.dnd, activity=discord.Game("C'est moi uesh"))
    print('Bot connecté.')
 
-client.run('OTQ0NjM2OTA1NjY3MDM5Mjcz.YhEfrA.mC3517lQQ-SlE3AQp-NL4n4A1dg')
+client.run(TOKEN)
